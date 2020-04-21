@@ -1,0 +1,2500 @@
+{
+  "nested": {
+    "protocol": {
+      "nested": {
+        "Cmd": {
+          "fields": {
+            "cmd": {
+              "type": "int32",
+              "id": 1
+            },
+            "timestamp": {
+              "type": "int64",
+              "id": 2
+            },
+            "fromClientId": {
+              "type": "string",
+              "id": 3
+            },
+            "toClientId": {
+              "type": "string",
+              "id": 4
+            },
+            "cmdData": {
+              "type": "bytes",
+              "id": 5
+            },
+            "msgId": {
+              "type": "string",
+              "id": 6
+            },
+            "status": {
+              "type": "int32",
+              "id": 7
+            },
+            "callbackMsg": {
+              "type": "string",
+              "id": 8
+            },
+            "cmdkey": {
+              "type": "string",
+              "id": 9
+            },
+            "priority": {
+              "type": "int32",
+              "id": 10
+            },
+            "localId": {
+              "type": "int32",
+              "id": 11
+            },
+            "pageKey": {
+              "type": "string",
+              "id": 12
+            },
+            "channel": {
+              "type": "string",
+              "id": 13
+            },
+            "pageId": {
+              "type": "string",
+              "id": 14
+            }
+          }
+        },
+        "CmdData1": {
+          "fields": {
+            "tel": {
+              "type": "string",
+              "id": 1
+            },
+            "mobileSerial": {
+              "type": "string",
+              "id": 2
+            },
+            "nickname": {
+              "type": "string",
+              "id": 3
+            },
+            "username": {
+              "type": "string",
+              "id": 4
+            },
+            "vision": {
+              "type": "string",
+              "id": 5
+            },
+            "channel": {
+              "type": "int32",
+              "id": 6
+            },
+            "apkUrl": {
+              "type": "string",
+              "id": 7
+            }
+          }
+        },
+        "CmdData2002": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "nickname": {
+              "type": "string",
+              "id": 2
+            },
+            "sex": {
+              "type": "string",
+              "id": 4
+            },
+            "signature": {
+              "type": "string",
+              "id": 5
+            },
+            "countryCode": {
+              "type": "string",
+              "id": 6
+            },
+            "provinceCode": {
+              "type": "string",
+              "id": 7
+            },
+            "provinceStr": {
+              "type": "string",
+              "id": 8
+            },
+            "cityCode": {
+              "type": "string",
+              "id": 9
+            },
+            "cityStr": {
+              "type": "string",
+              "id": 10
+            },
+            "headImg": {
+              "type": "string",
+              "id": 11
+            }
+          }
+        },
+        "CmdData2003": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "content": {
+              "type": "string",
+              "id": 2
+            },
+            "atuser": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2004": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "imgpath": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2005": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "title": {
+              "type": "string",
+              "id": 2
+            },
+            "description": {
+              "type": "string",
+              "id": 3
+            },
+            "url": {
+              "type": "string",
+              "id": 4
+            },
+            "primeval": {
+              "type": "string",
+              "id": 5
+            },
+            "appid": {
+              "type": "string",
+              "id": 6
+            },
+            "smallIconUrl": {
+              "type": "string",
+              "id": 7
+            },
+            "imgUrl": {
+              "type": "string",
+              "id": 8
+            }
+          }
+        },
+        "CmdData2006": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "primeval": {
+              "type": "string",
+              "id": 2
+            },
+            "nickname": {
+              "type": "string",
+              "id": 3
+            },
+            "alias": {
+              "type": "string",
+              "id": 4
+            }
+          }
+        },
+        "CmdData2007": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "title": {
+              "type": "string",
+              "id": 2
+            },
+            "description": {
+              "type": "string",
+              "id": 3
+            },
+            "url": {
+              "type": "string",
+              "id": 4
+            },
+            "imgUrl": {
+              "type": "string",
+              "id": 5
+            }
+          }
+        },
+        "CmdData2008": {
+          "fields": {}
+        },
+        "CmdData2009": {
+          "fields": {
+            "friendList": {
+              "rule": "repeated",
+              "type": "Friend",
+              "id": 1
+            },
+            "needGetAvatar": {
+              "type": "int32",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2010": {
+          "fields": {
+            "roomList": {
+              "rule": "repeated",
+              "type": "RoomInfo",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2011": {
+          "fields": {
+            "roomList": {
+              "rule": "repeated",
+              "type": "RoomInfo",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2012": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "roomOwner": {
+              "type": "string",
+              "id": 2
+            },
+            "roomNotice": {
+              "type": "string",
+              "id": 3
+            },
+            "noticeEditor": {
+              "type": "string",
+              "id": 4
+            },
+            "memberList": {
+              "rule": "repeated",
+              "type": "MemberInfo",
+              "id": 5
+            },
+            "roomName": {
+              "type": "string",
+              "id": 6
+            }
+          }
+        },
+        "CmdData2014": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "friendUsernameList": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2015": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "memberIds": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2016": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "memberIds": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2017": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "checkStatus": {
+              "type": "int32",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2018": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "nickname": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2019": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "nickname": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2020": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "qrcode": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2021": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "noticeContent": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2022": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "toUsername": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2023": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2024": {
+          "fields": {
+            "msgId": {
+              "type": "int64",
+              "id": 1
+            },
+            "msgSvrId": {
+              "type": "string",
+              "id": 2
+            },
+            "toUsername": {
+              "type": "string",
+              "id": 3
+            },
+            "imageId": {
+              "type": "string",
+              "id": 4
+            },
+            "image": {
+              "type": "string",
+              "id": 5
+            }
+          }
+        },
+        "CmdData2025": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2026": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "ticket": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2027": {
+          "fields": {
+            "nickname": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2028": {
+          "fields": {
+            "sex": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2029": {
+          "fields": {
+            "signature": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2030": {
+          "fields": {
+            "countryCode": {
+              "type": "string",
+              "id": 1
+            },
+            "provinceCode": {
+              "type": "string",
+              "id": 2
+            },
+            "cityCode": {
+              "type": "string",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2031": {
+          "fields": {
+            "headImage": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2032": {
+          "fields": {
+            "qrcode": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2036": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "sex": {
+              "type": "string",
+              "id": 2
+            },
+            "province": {
+              "type": "string",
+              "id": 3
+            },
+            "city": {
+              "type": "string",
+              "id": 4
+            },
+            "remark": {
+              "type": "string",
+              "id": 5
+            },
+            "labelIds": {
+              "type": "string",
+              "id": 6
+            },
+            "labelNames": {
+              "type": "string",
+              "id": 7
+            },
+            "nickname": {
+              "type": "string",
+              "id": 8
+            },
+            "signature": {
+              "type": "string",
+              "id": 9
+            },
+            "smallHeadImage": {
+              "type": "string",
+              "id": 10
+            },
+            "bigHeadImage": {
+              "type": "string",
+              "id": 11
+            },
+            "desc": {
+              "type": "string",
+              "id": 12
+            },
+            "tel": {
+              "type": "string",
+              "id": 13
+            },
+            "attachPic": {
+              "type": "string",
+              "id": 14
+            }
+          }
+        },
+        "CmdData2037": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "roomId": {
+              "type": "string",
+              "id": 2
+            },
+            "type": {
+              "type": "int32",
+              "id": 3
+            },
+            "verMsg": {
+              "type": "string",
+              "id": 4
+            },
+            "callbackId": {
+              "type": "string",
+              "id": 5
+            }
+          }
+        },
+        "CmdData2038": {
+          "fields": {
+            "labels": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2039": {
+          "fields": {
+            "labels": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2040": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "labels": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2041": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "remark": {
+              "type": "string",
+              "id": 2
+            },
+            "phone": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 3
+            },
+            "desc": {
+              "type": "string",
+              "id": 4
+            }
+          }
+        },
+        "CmdData2043": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "lastSnsId": {
+              "type": "string",
+              "id": 2
+            },
+            "albumList": {
+              "rule": "repeated",
+              "type": "AlbumItem",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2044": {
+          "fields": {
+            "lastSnsId": {
+              "type": "string",
+              "id": 1
+            },
+            "albumList": {
+              "rule": "repeated",
+              "type": "AlbumItem",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2045": {
+          "fields": {
+            "snsId": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2046": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "source": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2047": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2048": {
+          "fields": {
+            "type": {
+              "type": "int32",
+              "id": 1
+            },
+            "content": {
+              "type": "string",
+              "id": 2
+            },
+            "title": {
+              "type": "string",
+              "id": 3
+            },
+            "url": {
+              "type": "string",
+              "id": 4
+            },
+            "imagePath": {
+              "type": "string",
+              "id": 5
+            },
+            "pictureList": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 6
+            },
+            "canSee": {
+              "type": "int32",
+              "id": 7
+            },
+            "canSeeLabels": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 8
+            },
+            "canSeeIds": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 9
+            },
+            "videoPath": {
+              "type": "string",
+              "id": 10
+            }
+          }
+        },
+        "CmdData2049": {
+          "fields": {
+            "snsId": {
+              "type": "string",
+              "id": 1
+            },
+            "album": {
+              "type": "AlbumItem",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2050": {
+          "fields": {
+            "snsId": {
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "type": "int32",
+              "id": 2
+            },
+            "comment": {
+              "type": "string",
+              "id": 3
+            },
+            "toComment": {
+              "type": "Comment",
+              "id": 4
+            }
+          }
+        },
+        "CmdData2051": {
+          "fields": {
+            "imageUrl": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2052": {
+          "fields": {
+            "content": {
+              "type": "string",
+              "id": 1
+            },
+            "toUsers": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2053": {
+          "fields": {
+            "imgUrl": {
+              "type": "string",
+              "id": 1
+            },
+            "toUsers": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2054": {
+          "fields": {
+            "fromUsername": {
+              "type": "string",
+              "id": 1
+            },
+            "nativeUrl": {
+              "type": "string",
+              "id": 2
+            },
+            "totalMoney": {
+              "type": "int64",
+              "id": 3
+            },
+            "receivedMoney": {
+              "type": "int64",
+              "id": 4
+            },
+            "totalCount": {
+              "type": "int32",
+              "id": 5
+            },
+            "receivedCount": {
+              "type": "int32",
+              "id": 6
+            },
+            "receiveMsg": {
+              "type": "string",
+              "id": 7
+            },
+            "payMsgId": {
+              "type": "string",
+              "id": 8
+            },
+            "receiveUsers": {
+              "rule": "repeated",
+              "type": "RedPacketReceive",
+              "id": 9
+            }
+          }
+        },
+        "CmdData2055": {
+          "fields": {
+            "senderUsername": {
+              "type": "string",
+              "id": 1
+            },
+            "transcAtionId": {
+              "type": "string",
+              "id": 2
+            },
+            "transferId": {
+              "type": "string",
+              "id": 3
+            },
+            "invalidTime": {
+              "type": "string",
+              "id": 4
+            }
+          }
+        },
+        "CmdData2056": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "fileUrl": {
+              "type": "string",
+              "id": 2
+            },
+            "fileName": {
+              "type": "string",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2057": {
+          "fields": {
+            "toUser": {
+              "type": "string",
+              "id": 1
+            },
+            "videoUrl": {
+              "type": "string",
+              "id": 2
+            },
+            "thumbUrl": {
+              "type": "string",
+              "id": 3
+            },
+            "videoLength": {
+              "type": "int32",
+              "id": 4
+            }
+          }
+        },
+        "CmdData2059": {
+          "fields": {
+            "oldLabelName": {
+              "type": "string",
+              "id": 1
+            },
+            "newLabelName": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2060": {
+          "fields": {
+            "labelName": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2061": {
+          "fields": {
+            "msgSvrId": {
+              "type": "string",
+              "id": 1
+            },
+            "talker": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2062": {
+          "fields": {
+            "msgId": {
+              "type": "int64",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2063": {
+          "fields": {
+            "usernames": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            },
+            "labels": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            },
+            "isDelete": {
+              "type": "bool",
+              "id": 3
+            }
+          }
+        },
+        "CmdData2064": {
+          "fields": {
+            "state": {
+              "type": "bool",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2065": {
+          "fields": {
+            "number": {
+              "type": "string",
+              "id": 1
+            },
+            "slotId": {
+              "type": "int32",
+              "id": 2
+            },
+            "recordUrl": {
+              "type": "string",
+              "id": 3
+            },
+            "isIncoming": {
+              "type": "bool",
+              "id": 4
+            },
+            "startTime": {
+              "type": "int64",
+              "id": 5
+            },
+            "stopTime": {
+              "type": "int64",
+              "id": 6
+            },
+            "hidePhoneNumber": {
+              "type": "bool",
+              "id": 7
+            },
+            "displayName": {
+              "type": "string",
+              "id": 8
+            }
+          }
+        },
+        "CmdData2066": {
+          "fields": {
+            "type": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CmdData1000": {
+          "fields": {
+            "type": {
+              "type": "string",
+              "id": 1
+            },
+            "talker": {
+              "type": "string",
+              "id": 2
+            },
+            "content": {
+              "type": "string",
+              "id": 3
+            },
+            "msgId": {
+              "type": "int64",
+              "id": 4
+            },
+            "msgSvrId": {
+              "type": "string",
+              "id": 5
+            },
+            "imgId": {
+              "type": "string",
+              "id": 6
+            },
+            "bigImg": {
+              "type": "string",
+              "id": 7
+            },
+            "smallImg": {
+              "type": "string",
+              "id": 8
+            },
+            "title": {
+              "type": "string",
+              "id": 9
+            },
+            "descript": {
+              "type": "string",
+              "id": 10
+            },
+            "url": {
+              "type": "string",
+              "id": 11
+            },
+            "sourceUsername": {
+              "type": "string",
+              "id": 12
+            },
+            "sourceDisplayName": {
+              "type": "string",
+              "id": 13
+            },
+            "appid": {
+              "type": "string",
+              "id": 14
+            },
+            "friendCard": {
+              "type": "Friend",
+              "id": 15
+            },
+            "redPacket": {
+              "type": "RedPacket",
+              "id": 16
+            },
+            "transferMoney": {
+              "type": "TransferMoney",
+              "id": 17
+            },
+            "voice": {
+              "type": "bytes",
+              "id": 18
+            },
+            "avatarUrl": {
+              "type": "string",
+              "id": 19
+            },
+            "nickName": {
+              "type": "string",
+              "id": 20
+            },
+            "createTime": {
+              "type": "int64",
+              "id": 21
+            },
+            "isSend": {
+              "type": "int32",
+              "id": 22
+            },
+            "roomFromUsername": {
+              "type": "string",
+              "id": 23
+            },
+            "status": {
+              "type": "int32",
+              "id": 24
+            },
+            "isNewMsg": {
+              "type": "int32",
+              "id": 25
+            },
+            "noHint": {
+              "type": "int32",
+              "id": 26
+            },
+            "userId": {
+              "type": "int32",
+              "id": 27
+            }
+          }
+        },
+        "CmdData1001": {
+          "fields": {
+            "snsId": {
+              "type": "string",
+              "id": 1
+            },
+            "comment": {
+              "type": "SnsMessageComment",
+              "id": 2
+            },
+            "toComment": {
+              "type": "SnsMessageComment",
+              "id": 3
+            },
+            "type": {
+              "type": "int32",
+              "id": 4
+            }
+          }
+        },
+        "CmdData1002": {
+          "fields": {
+            "fromUsername": {
+              "type": "string",
+              "id": 1
+            },
+            "nickname": {
+              "type": "string",
+              "id": 2
+            },
+            "verifyContent": {
+              "type": "string",
+              "id": 3
+            },
+            "scene": {
+              "type": "string",
+              "id": 4
+            },
+            "country": {
+              "type": "string",
+              "id": 5
+            },
+            "province": {
+              "type": "string",
+              "id": 6
+            },
+            "city": {
+              "type": "string",
+              "id": 7
+            },
+            "sign": {
+              "type": "string",
+              "id": 8
+            },
+            "sex": {
+              "type": "string",
+              "id": 9
+            },
+            "alias": {
+              "type": "string",
+              "id": 10
+            },
+            "ticket": {
+              "type": "string",
+              "id": 11
+            },
+            "headImg": {
+              "type": "string",
+              "id": 12
+            }
+          }
+        },
+        "CmdData1003": {
+          "fields": {
+            "type": {
+              "type": "string",
+              "id": 1
+            },
+            "fromUsername": {
+              "type": "string",
+              "id": 2
+            },
+            "toUsername": {
+              "type": "string",
+              "id": 3
+            },
+            "msg": {
+              "type": "string",
+              "id": 4
+            },
+            "user": {
+              "type": "Friend",
+              "id": 5
+            },
+            "userList": {
+              "rule": "repeated",
+              "type": "Friend",
+              "id": 6
+            }
+          }
+        },
+        "CmdData1004": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "sex": {
+              "type": "string",
+              "id": 2
+            },
+            "province": {
+              "type": "string",
+              "id": 3
+            },
+            "city": {
+              "type": "string",
+              "id": 4
+            },
+            "remark": {
+              "type": "string",
+              "id": 5
+            },
+            "labelIds": {
+              "type": "string",
+              "id": 6
+            },
+            "labelNames": {
+              "type": "string",
+              "id": 7
+            },
+            "nickname": {
+              "type": "string",
+              "id": 8
+            },
+            "signature": {
+              "type": "string",
+              "id": 9
+            },
+            "smallHeadImage": {
+              "type": "string",
+              "id": 10
+            },
+            "bigHeadImage": {
+              "type": "string",
+              "id": 11
+            }
+          }
+        },
+        "CmdData1005": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "remark": {
+              "type": "string",
+              "id": 2
+            },
+            "labelIds": {
+              "type": "string",
+              "id": 3
+            },
+            "labelNames": {
+              "type": "string",
+              "id": 4
+            },
+            "desc": {
+              "type": "string",
+              "id": 5
+            },
+            "tel": {
+              "type": "string",
+              "id": 6
+            },
+            "attachPic": {
+              "type": "string",
+              "id": 7
+            },
+            "type": {
+              "type": "int32",
+              "id": 8
+            }
+          }
+        },
+        "CmdData1006": {
+          "fields": {
+            "type": {
+              "type": "int32",
+              "id": 1
+            },
+            "snsId": {
+              "type": "string",
+              "id": 2
+            },
+            "album": {
+              "type": "AlbumItem",
+              "id": 3
+            }
+          }
+        },
+        "CmdData1007": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "sex": {
+              "type": "string",
+              "id": 2
+            },
+            "province": {
+              "type": "string",
+              "id": 3
+            },
+            "city": {
+              "type": "string",
+              "id": 4
+            },
+            "nickname": {
+              "type": "string",
+              "id": 5
+            },
+            "signature": {
+              "type": "string",
+              "id": 6
+            },
+            "headImage": {
+              "type": "string",
+              "id": 7
+            },
+            "type": {
+              "type": "int32",
+              "id": 8
+            }
+          }
+        },
+        "CmdData1009": {
+          "fields": {
+            "labelName": {
+              "type": "string",
+              "id": 1
+            },
+            "friends": {
+              "rule": "repeated",
+              "type": "Friend",
+              "id": 2
+            },
+            "newLabelName": {
+              "type": "string",
+              "id": 3
+            },
+            "type": {
+              "type": "int32",
+              "id": 4
+            }
+          }
+        },
+        "CmdData1010": {
+          "fields": {
+            "roomId": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "TransferMoney": {
+          "fields": {
+            "title": {
+              "type": "string",
+              "id": 1
+            },
+            "des": {
+              "type": "string",
+              "id": 2
+            },
+            "action": {
+              "type": "string",
+              "id": 3
+            },
+            "type": {
+              "type": "string",
+              "id": 4
+            },
+            "content": {
+              "type": "string",
+              "id": 5
+            },
+            "url": {
+              "type": "string",
+              "id": 6
+            },
+            "thumbUrl": {
+              "type": "string",
+              "id": 7
+            },
+            "lowUrl": {
+              "type": "string",
+              "id": 8
+            },
+            "paySubType": {
+              "type": "string",
+              "id": 9
+            },
+            "feeDesc": {
+              "type": "string",
+              "id": 10
+            },
+            "transcAtionId": {
+              "type": "string",
+              "id": 11
+            },
+            "transferId": {
+              "type": "string",
+              "id": 12
+            },
+            "invalidTime": {
+              "type": "string",
+              "id": 13
+            },
+            "beginTransferTime": {
+              "type": "string",
+              "id": 14
+            },
+            "effectiveDate": {
+              "type": "string",
+              "id": 15
+            },
+            "payMemo": {
+              "type": "string",
+              "id": 16
+            }
+          }
+        },
+        "RedPacket": {
+          "fields": {
+            "des": {
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "type": "string",
+              "id": 2
+            },
+            "title": {
+              "type": "string",
+              "id": 3
+            },
+            "templateId": {
+              "type": "string",
+              "id": 4
+            },
+            "url": {
+              "type": "string",
+              "id": 5
+            },
+            "iconUrl": {
+              "type": "string",
+              "id": 6
+            },
+            "receiverTitle": {
+              "type": "string",
+              "id": 7
+            },
+            "senderTitle": {
+              "type": "string",
+              "id": 8
+            },
+            "sceneText": {
+              "type": "string",
+              "id": 9
+            },
+            "senderDes": {
+              "type": "string",
+              "id": 10
+            },
+            "receiverDes": {
+              "type": "string",
+              "id": 11
+            },
+            "nativeUrl": {
+              "type": "string",
+              "id": 12
+            },
+            "sceneId": {
+              "type": "string",
+              "id": 13
+            },
+            "innerType": {
+              "type": "string",
+              "id": 14
+            },
+            "payMsgId": {
+              "type": "string",
+              "id": 15
+            },
+            "invalidTime": {
+              "type": "string",
+              "id": 16
+            }
+          }
+        },
+        "SnsMessageComment": {
+          "fields": {
+            "timestamp": {
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "type": "int32",
+              "id": 2
+            },
+            "username": {
+              "type": "string",
+              "id": 3
+            },
+            "nickname": {
+              "type": "string",
+              "id": 4
+            },
+            "comment": {
+              "type": "string",
+              "id": 7
+            },
+            "id": {
+              "type": "int32",
+              "id": 8
+            }
+          }
+        },
+        "Friend": {
+          "fields": {
+            "alias": {
+              "type": "string",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "conRemark": {
+              "type": "string",
+              "id": 3
+            },
+            "nickname": {
+              "type": "string",
+              "id": 4
+            },
+            "sex": {
+              "type": "string",
+              "id": 5
+            },
+            "province": {
+              "type": "string",
+              "id": 6
+            },
+            "city": {
+              "type": "string",
+              "id": 7
+            },
+            "labelIds": {
+              "type": "string",
+              "id": 8
+            },
+            "labelNames": {
+              "type": "string",
+              "id": 9
+            },
+            "signature": {
+              "type": "string",
+              "id": 10
+            },
+            "v2Ticket": {
+              "type": "string",
+              "id": 11
+            },
+            "desc": {
+              "type": "string",
+              "id": 12
+            },
+            "tel": {
+              "type": "string",
+              "id": 13
+            },
+            "certFlag": {
+              "type": "int32",
+              "id": 14
+            },
+            "headImageUrl": {
+              "type": "string",
+              "id": 15
+            },
+            "attachPicUrl": {
+              "type": "string",
+              "id": 16
+            }
+          }
+        },
+        "RoomInfo": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "nickname": {
+              "type": "string",
+              "id": 2
+            },
+            "type": {
+              "type": "string",
+              "id": 3
+            },
+            "roomOwner": {
+              "type": "string",
+              "id": 4
+            }
+          }
+        },
+        "MemberInfo": {
+          "fields": {
+            "alias": {
+              "type": "string",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "nickname": {
+              "type": "string",
+              "id": 3
+            },
+            "roomNickname": {
+              "type": "string",
+              "id": 4
+            },
+            "remark": {
+              "type": "string",
+              "id": 5
+            },
+            "smallHeadImage": {
+              "type": "string",
+              "id": 6
+            },
+            "bigHeadImage": {
+              "type": "string",
+              "id": 7
+            }
+          }
+        },
+        "Region": {
+          "fields": {
+            "code": {
+              "type": "string",
+              "id": 1
+            },
+            "name": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "AlbumItem": {
+          "fields": {
+            "snsId": {
+              "type": "string",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "nickname": {
+              "type": "string",
+              "id": 3
+            },
+            "contentText": {
+              "type": "string",
+              "id": 4
+            },
+            "share": {
+              "type": "Share",
+              "id": 5
+            },
+            "albumList": {
+              "rule": "repeated",
+              "type": "Album",
+              "id": 6
+            },
+            "likeList": {
+              "rule": "repeated",
+              "type": "Comment",
+              "id": 7
+            },
+            "commentList": {
+              "rule": "repeated",
+              "type": "Comment",
+              "id": 8
+            },
+            "timestamp": {
+              "type": "string",
+              "id": 9
+            }
+          }
+        },
+        "Share": {
+          "fields": {
+            "shareTitle": {
+              "type": "string",
+              "id": 1
+            },
+            "shareText": {
+              "type": "string",
+              "id": 2
+            },
+            "shreUrl": {
+              "type": "string",
+              "id": 3
+            }
+          }
+        },
+        "Album": {
+          "fields": {
+            "albumText": {
+              "type": "string",
+              "id": 1
+            },
+            "mediaId": {
+              "type": "string",
+              "id": 2
+            },
+            "src": {
+              "type": "string",
+              "id": 3
+            },
+            "small": {
+              "type": "string",
+              "id": 4
+            }
+          }
+        },
+        "Comment": {
+          "fields": {
+            "timestamp": {
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "type": "int32",
+              "id": 2
+            },
+            "username": {
+              "type": "string",
+              "id": 3
+            },
+            "nickname": {
+              "type": "string",
+              "id": 4
+            },
+            "comment": {
+              "type": "string",
+              "id": 5
+            },
+            "toUser": {
+              "type": "string",
+              "id": 6
+            },
+            "id": {
+              "type": "int32",
+              "id": 7
+            }
+          }
+        },
+        "RedPacketReceive": {
+          "fields": {
+            "payMsgId": {
+              "type": "string",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "nickname": {
+              "type": "string",
+              "id": 3
+            },
+            "timestamp": {
+              "type": "int64",
+              "id": 4
+            },
+            "money": {
+              "type": "int64",
+              "id": 5
+            }
+          }
+        },
+        "CmdData2998": {
+          "fields": {
+            "sendUser": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "rule": "repeated",
+              "type": "int32",
+              "id": 2
+            },
+            "content": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 3
+            },
+            "appid": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 4
+            },
+            "alias": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 5
+            },
+            "orginid": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 6
+            },
+            "title": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 7
+            },
+            "desc": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 8
+            },
+            "url": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 9
+            },
+            "iconurl": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 10
+            },
+            "mediapath": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 11
+            }
+          }
+        },
+        "CmdData2999": {
+          "fields": {
+            "robotusernames": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            },
+            "taskId": {
+              "type": "int32",
+              "id": 2
+            },
+            "isAll": {
+              "type": "int32",
+              "id": 3
+            }
+          }
+        },
+        "CmdData3000": {
+          "fields": {
+            "usernames": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            },
+            "robotusername": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            },
+            "taskId": {
+              "type": "int32",
+              "id": 3
+            },
+            "isAll": {
+              "type": "int32",
+              "id": 4
+            }
+          }
+        },
+        "CmdData3001": {
+          "fields": {
+            "robotList": {
+              "rule": "repeated",
+              "type": "RobotData",
+              "id": 1
+            }
+          }
+        },
+        "RobotData": {
+          "fields": {
+            "id": {
+              "type": "int32",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "tel": {
+              "type": "string",
+              "id": 3
+            },
+            "mobileSerial": {
+              "type": "string",
+              "id": 4
+            },
+            "nickname": {
+              "type": "string",
+              "id": 5
+            },
+            "roomNum": {
+              "type": "int32",
+              "id": 6
+            },
+            "activeTime": {
+              "type": "string",
+              "id": 7
+            },
+            "ip": {
+              "type": "string",
+              "id": 8
+            },
+            "vision": {
+              "type": "string",
+              "id": 9
+            },
+            "robotStatus": {
+              "type": "int32",
+              "id": 10
+            },
+            "cpu": {
+              "type": "string",
+              "id": 11
+            },
+            "load1": {
+              "type": "string",
+              "id": 12
+            },
+            "load2": {
+              "type": "string",
+              "id": 13
+            },
+            "load3": {
+              "type": "string",
+              "id": 14
+            },
+            "memory": {
+              "type": "string",
+              "id": 15
+            },
+            "disk": {
+              "type": "string",
+              "id": 16
+            },
+            "chargeInfo": {
+              "type": "string",
+              "id": 17
+            },
+            "updateAt": {
+              "type": "string",
+              "id": 18
+            },
+            "isWxLogout": {
+              "type": "string",
+              "id": 19
+            },
+            "created": {
+              "type": "string",
+              "id": 20
+            }
+          }
+        },
+        "CmdData3002": {
+          "fields": {
+            "errorRobotList": {
+              "rule": "repeated",
+              "type": "ErrorRobot",
+              "id": 1
+            }
+          }
+        },
+        "CmdData3003": {
+          "fields": {
+            "id": {
+              "type": "int32",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "mobileSerialName": {
+              "type": "string",
+              "id": 3
+            },
+            "nickname": {
+              "type": "string",
+              "id": 4
+            },
+            "type": {
+              "type": "string",
+              "id": 5
+            },
+            "time": {
+              "type": "string",
+              "id": 6
+            }
+          }
+        },
+        "ErrorRobot": {
+          "fields": {
+            "id": {
+              "type": "int32",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "mobileSerialName": {
+              "type": "string",
+              "id": 3
+            },
+            "nickname": {
+              "type": "string",
+              "id": 4
+            },
+            "userId": {
+              "type": "string",
+              "id": 5
+            }
+          }
+        },
+        "CmdData2500": {
+          "fields": {
+            "qrcode": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2501": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            },
+            "qrcode": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2502": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            },
+            "roomInfo": {
+              "type": "WeworkRoomInfo",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2503": {
+          "fields": {
+            "type": {
+              "type": "int32",
+              "id": 1
+            },
+            "rooms": {
+              "rule": "repeated",
+              "type": "WeworkRoomInfo",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2504": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            },
+            "userInfo": {
+              "type": "WeworkUserInfo",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2505": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            },
+            "content": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2506": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            },
+            "imageUrl": {
+              "type": "string",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2507": {
+          "fields": {
+            "mobile": {
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "type": "int32",
+              "id": 2
+            },
+            "content": {
+              "type": "string",
+              "id": 3
+            },
+            "userInfo": {
+              "type": "WeworkUserInfo",
+              "id": 4
+            }
+          }
+        },
+        "CmdData2508": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2509": {
+          "fields": {
+            "type": {
+              "type": "int32",
+              "id": 1
+            },
+            "userInfo": {
+              "rule": "repeated",
+              "type": "WeworkUserInfo",
+              "id": 2
+            }
+          }
+        },
+        "CmdData2510": {
+          "fields": {
+            "type": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CmdData2601": {
+          "fields": {
+            "sendUser": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            },
+            "type": {
+              "rule": "repeated",
+              "type": "int32",
+              "id": 2
+            },
+            "content": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 3
+            },
+            "mediapath": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 11
+            }
+          }
+        },
+        "CmdData2602": {
+          "fields": {
+            "usernames": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            },
+            "robotusernames": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 2
+            },
+            "isRoom": {
+              "type": "int32",
+              "id": 3
+            },
+            "taskId": {
+              "type": "int32",
+              "id": 4
+            },
+            "isAll": {
+              "type": "int32",
+              "id": 5
+            }
+          }
+        },
+        "CmdData1500": {
+          "fields": {
+            "id": {
+              "type": "string",
+              "id": 1
+            },
+            "sender": {
+              "type": "string",
+              "id": 2
+            },
+            "sendTime": {
+              "type": "int64",
+              "id": 3
+            },
+            "contentType": {
+              "type": "int32",
+              "id": 4
+            },
+            "content": {
+              "type": "string",
+              "id": 5
+            },
+            "state": {
+              "type": "int32",
+              "id": 6
+            },
+            "talker": {
+              "type": "string",
+              "id": 7
+            },
+            "isSend": {
+              "type": "bool",
+              "id": 8
+            },
+            "msg": {
+              "type": "bytes",
+              "id": 9
+            },
+            "conversationType": {
+              "type": "int32",
+              "id": 10
+            },
+            "noHint": {
+              "type": "int32",
+              "id": 11
+            },
+            "userId": {
+              "type": "int32",
+              "id": 12
+            },
+            "isNewMsg": {
+              "type": "int32",
+              "id": 13
+            },
+            "avatarUrl": {
+              "type": "string",
+              "id": 14
+            },
+            "nickName": {
+              "type": "string",
+              "id": 15
+            }
+          }
+        },
+        "CmdData1501": {
+          "fields": {
+            "userInfo": {
+              "type": "WeworkUserInfo",
+              "id": 1
+            }
+          }
+        },
+        "WeworkRoomInfo": {
+          "fields": {
+            "remoteId": {
+              "type": "string",
+              "id": 1
+            },
+            "roomOwner": {
+              "type": "string",
+              "id": 2
+            },
+            "roomName": {
+              "type": "string",
+              "id": 3
+            },
+            "type": {
+              "type": "int32",
+              "id": 4
+            },
+            "members": {
+              "rule": "repeated",
+              "type": "WeworkUserInfo",
+              "id": 5
+            },
+            "isExit": {
+              "type": "bool",
+              "id": 6
+            }
+          }
+        },
+        "WeworkUserInfo": {
+          "fields": {
+            "acctid": {
+              "type": "string",
+              "id": 1
+            },
+            "corpId": {
+              "type": "string",
+              "id": 2
+            },
+            "corpName": {
+              "type": "string",
+              "id": 3
+            },
+            "corpFullName": {
+              "type": "string",
+              "id": 4
+            },
+            "job": {
+              "type": "string",
+              "id": 5
+            },
+            "name": {
+              "type": "string",
+              "id": 6
+            },
+            "displayName": {
+              "type": "string",
+              "id": 7
+            },
+            "realRemark": {
+              "type": "string",
+              "id": 8
+            },
+            "headUrl": {
+              "type": "string",
+              "id": 9
+            },
+            "mobilePhone": {
+              "type": "string",
+              "id": 10
+            },
+            "isWeixinXidUser": {
+              "type": "bool",
+              "id": 11
+            },
+            "gender": {
+              "type": "int32",
+              "id": 12
+            },
+            "remoteId": {
+              "type": "string",
+              "id": 13
+            },
+            "alias": {
+              "type": "string",
+              "id": 14
+            },
+            "email": {
+              "type": "string",
+              "id": 15
+            },
+            "corpAddress": {
+              "type": "string",
+              "id": 16
+            }
+          }
+        },
+        "WeworkTextMsg": {
+          "fields": {
+            "content": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "WeworkImageMsg": {
+          "fields": {
+            "fileName": {
+              "type": "string",
+              "id": 1
+            },
+            "fileSize": {
+              "type": "int64",
+              "id": 2
+            },
+            "url": {
+              "type": "string",
+              "id": 3
+            }
+          }
+        },
+        "WeworkSpecialMsg": {
+          "fields": {
+            "content": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "WeworkOtherMsg": {
+          "fields": {
+            "content": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

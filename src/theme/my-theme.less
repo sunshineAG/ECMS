@@ -1,0 +1,427 @@
+@import '~ant-design-vue/dist/antd.less';
+@primary-color: #55ABCE;
+* {
+  font-size: 14px;
+}
+.ft12 {
+  font-size: 12px;
+}
+svg {
+  font-size: inherit;
+}
+body {
+  overflow: hidden;
+  background: #efefef;
+}
+.ant-layout{
+  background: rgba(90, 169, 205, 0.05);
+}
+.global-header-menu .ant-menu-item-selected{
+    background:#fff !important; //导航选中状态背景
+}
+.global-header-menu .ant-menu-item-selected > a,.global-header-menu .ant-menu-item-selected > a:hover{
+    color:#5aa9cd !important;
+}
+.ant-menu-inline-collapsed> .ant-menu-submenu>.ant-menu-submenu-title{
+    padding:0 17px !important;
+}
+.ant-menu-inline-collapsed{
+    width:50px;
+}
+.ant-menu-item-selected{
+    background:#5aa9cd !important; //导航选中状态背景
+}
+.ant-menu-submenu{
+    // overflow: hidden;
+}
+.ant-menu-submenu > .ant-menu{
+    overflow: hidden;
+}
+.ant-menu-item{
+    margin:0 !important;
+}
+.ant-menu-item-selected > a,.ant-layout-sider .ant-menu-item-selected > a:hover{
+    color:#fff !important;
+}
+::-webkit-scrollbar-track-piece{width:10px;height: 10px;background-color:#f0f0f0 ;  border-radius:10px; }
+
+::-webkit-scrollbar{width:10px;height:10px; }
+
+::-webkit-scrollbar-thumb{height:50px;width: 50px;background:#cdcdcd;border-radius:10px;   cursor:pointer;}
+
+::-webkit-scrollbar-thumb:hover{background:#cdcdcd ;border-radius:10px;  cursor:pointer}
+
+.ant-tooltip {
+  max-width: 400px!important;
+}
+.ant-layout-content{
+  overflow-y: hidden
+}
+//tag样式
+.ant-tag{
+  border-radius:10px;
+}
+.ant-select-dropdown{
+  max-height:300px !important;	
+}// 选择部门下拉列表高度限制
+.tag-color1 {
+  border-color: #393939!important;
+  color: #393939!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #393939!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #393939!important;
+    color: #ffffff!important;
+  }
+}
+.tag-color2 {
+  border-color: #5BBFEA!important;
+  color: #5BBFEA!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #5BBFEA!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #5BBFEA!important;
+    color: #ffffff!important;
+  }
+}
+.tag-color3 {
+  border-color: #5BCA89!important;
+  color: #5BCA89!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #5BCA89!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #5BCA89!important;
+    color: #ffffff!important;
+  }
+}
+.tag-color4 {
+  border-color: #7666CC!important;
+  color: #7666CC!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #7666CC!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #7666CC!important;
+    color: #ffffff!important;
+  }
+}
+.tag-color5 {
+  border-color: #FFB802!important;
+  color: #FFB802!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #FFB802!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #FFB802!important;
+    color: #ffffff!important;
+  }
+}
+.tag-color6 {
+  border-color: #FF9A47!important;
+  color: #FF9A47!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #FF9A47!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #FF9A47!important;
+    color: #ffffff!important;
+  }
+}
+.tag-color7 {
+  border-color: #FF6B6B!important;
+  color: #FF6B6B!important;
+  background: #ffffff!important;
+  &:hover {
+    background: #FF6B6B!important;
+    color: #ffffff!important;
+    opacity:1
+  }
+  &.ant-tag-checkable-checked {
+    background: #FF6B6B!important;
+    color: #ffffff!important;
+  }
+}
+.title-tagColor1{
+    background:#393939;
+}
+.title-tagColor2{
+    background:#5BBFEA;
+}
+.title-tagColor3{
+    background:#5BCA89;
+}
+.title-tagColor4{
+    background:#7666CC;
+}
+.title-tagColor5{
+    background:#FFB802;
+}
+.title-tagColor6{
+    background:#FF9A47;
+}
+.title-tagColor7{
+    background:#FF6B6B;
+}
+.ant-tag {
+  margin-right: 10px!important;
+}
+.ant-table-placeholder{
+    // border-bottom:0!important;
+    padding:0;
+}
+.ant-pagination-item-active{
+  background:#5AA9CD;
+  color: #ffffff;
+}
+.ant-input{
+    font-size:12px;
+}
+.ant-menu-item > a > span{
+    font-size:14px;
+}
+.ant-layout-sider .ant-menu-submenu-title > span > span{
+    font-size:14px;
+}
+.ant-layout-sider .ant-menu-submenu-title > span >.anticon{
+    font-size:16px;
+}
+.ant-layout-sider .ant-menu-item .anticon{
+  font-size:18px;
+  vertical-align: sub;
+}
+.ant-input-suffix .ant-input-search-button > .anticon-search{
+    font-size:12px !important;
+}
+.ant-input-suffix >.ant-btn{
+    padding:0 10px;
+}
+
+.ant-pagination-item-active a{
+  text-decoration: none;
+  color:#fff;
+}
+.ant-pagination-item-active a:hover{
+  color:#fff;
+}
+.ant-btn{
+    height:32px;
+}
+.override-ant-btn{
+    height:30px;
+    width:62px;
+    padding:0;
+}
+.clearFloat::after{
+  display:block;
+  content:'';
+  height:0;
+  visibility: hidden;
+  clear:both;
+}
+.floatRight{
+  float:right;
+}
+.floatLeft{
+  float:left;
+}
+.unselect{
+  -webkit-user-select: none; 
+  -moz-user-select: none;    
+  -khtml-user-select: none;  
+  -ms-user-select: none;    
+  -o-user-select: none;
+  user-select: none;  
+}
+
+//.scrollheade .ant-table-header{
+//    border-radius: 3px 3px 0 0;
+//    overflow-y: hidden !important;
+//    overflow-x:hidden !important;
+//    position: absolute;
+//    // margin-bottom: -10px;
+//    padding-bottom: 0px;
+//    top: 0;
+//    width: 100%;
+//    height: 46px;
+//    z-index: 9;
+//}
+.ant-table-tbody > tr > td.ant-table-selection-column{
+    text-align:left;
+}
+.ant-table-selection{
+    text-align:left;
+}
+//.scrollheader .ant-table-header{
+//    overflow-y: hidden !important;
+//}
+.ant-table-thead > tr > th{
+    
+    div{
+        font-size:14px;
+    }
+    padding:12px 16px;
+    background:none;
+}
+.ant-table-header{
+    background:none;
+}
+.ant-table-row-selected td{
+    background:#E9F2FB !important;
+}
+.scrollheade .ant-table-thead{
+    background:rgba(34, 34, 34, 0.7) !important;
+}
+.scrollheade .ant-table-thead > tr > th{
+    color:#fff !important;    
+    //background:rgba(34, 34, 34, 0.6) !important;
+}
+.scrollheade .ant-table-body{
+    //padding-top:42px;
+    padding-bottom:48px;
+}
+.ant-table-thead{
+    background:#F5F5F5 !important;  
+}
+.ant-tabs-bar {
+    border-bottom: 10px solid #f0f2f5;
+    margin-bottom: 0;
+}
+.ant-table-body tr td{
+    padding:10px 16px;
+}
+.ant-table{
+    border-top:1px solid #E6E5E5;
+    border-left:1px solid #E6E5E5;
+    border-right:1px solid #E6E5E5;
+    border-radius:3px 3px 0 0;
+}
+.bg-row-gray{
+    background:#fafafa;//f2f2f2 #E6E5E5 100%
+}
+.bg-row,.bg-row-gray{
+    // height:58px;
+}
+.bottomPage{
+    border-radius:0 0 3px 3px;
+    width: 100%;
+    background:#fff;
+    height:50px;
+    padding:8px 34px 0 0;
+    color:#222;
+    border-left:1px solid #E6E5E5;
+    border-right:1px solid #E6E5E5;
+    border-bottom:1px solid #E6E5E5;
+}
+.bottomPageK{
+    border-radius:0 0 3px 3px;
+    position:absolute;
+    bottom:0;
+    color:#fff;
+    height:50px;
+    width: 100%;
+    padding:8px 34px 0 0;
+    background:rgba(34, 34, 34, 0.7);
+    border-left:1px solid #E6E5E5;
+    border-right:1px solid #E6E5E5;
+    border-bottom:1px solid #E6E5E5;
+    .col{
+        color:#fff;
+    }
+}
+.bottomPage::after,.bottomPageK::after{
+    display: block;
+    clear:both;
+    height:0;
+    content:'';
+    visibility: hidden;
+}
+.botomCheck{
+    float:left;
+    vertical-align: middle;
+    margin-left:16px;
+    margin-top:6px;
+}
+// 企业号公共样式
+.commonPosition{
+    position:relative;
+}
+.companyStyle{
+    padding:10px 12px;
+    background:#fff;
+    border-radius:3px;
+    height: calc(~"100vh - 90px");
+    .company-header{
+        .row{
+            .selectCommon{
+                float: left;
+                width:150px;
+                margin-right:12px;
+            }
+            .right{
+                float: right;
+                .search{
+                    width:190px;
+                    margin-right:10px;
+                }
+                .icon-a{
+                    margin-right:10px;
+                    cursor: pointer;
+                    padding:7px 9px;
+                    border-radius:3px;
+                    background:#55ABCE;
+                    color:#fff;
+                    .icon-img{
+                        width:12px;
+                        height: 12px;
+                        margin-top: -3px;
+                    }
+                    &:hover{
+                        background:#82c0d9;
+                    }
+                }
+            }
+            &::after{
+                display:block;
+                content:'';
+                height:0;
+                visibility: hidden;
+                clear:both;
+            }
+        }
+    }
+    .company-content{
+        position: relative;
+        margin-top:13px;
+        .stausPage{
+            position:absolute;
+            left:50%;
+            top:76px;
+            z-index:999;
+            transform: translate(-50%,0);
+        }
+    }
+}
+.ant-notification {
+    z-index: 1051;
+}
